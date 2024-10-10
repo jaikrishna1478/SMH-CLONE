@@ -24,6 +24,25 @@
 .navbar-nav{
     font-size: 20px;
 }
+.icon-head{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-head1{
+    width:50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap:3px;
+}
+.icon-head2{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    gap:3px;
+}
 
 .dropdown-item:hover{
     color:blue;
@@ -337,3 +356,23 @@
         width:680px
     }
 }
+
+@media (max-width:376px){
+    .navbar{
+        background-color: white;
+        position: sticky;
+        top:2;
+        z-index:1;
+    }
+    .testomials-img{
+        padding-top: 0px;
+    }
+    
+    .carousel-caption p{
+        max-width:350px;
+      max-height:340px;
+    }
+    
+    
+}
+
