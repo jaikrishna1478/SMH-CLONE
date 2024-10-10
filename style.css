@@ -357,7 +357,7 @@
     }
 }
 
-@media (max-width:376px){
+@media (max-width:375px){
     .navbar{
         background-color: white;
         position: sticky;
